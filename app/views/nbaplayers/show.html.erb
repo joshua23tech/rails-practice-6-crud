@@ -1,0 +1,28 @@
+<h1>Finals MVP Stats</h1>
+
+<h2>Name</h2>
+<h3><%= @nbaplayer.name %></h3>
+
+<h2>Position</h2>
+<h3><%= "⛹️‍♂️" + " " + @nbaplayer.position %></h3>
+
+<h2>Team</h2>
+<h3><%= "🏀 #{@nbaplayer.team}" %></h3>
+
+<h2>Conference</h2>
+<h3><%= "🏟️ #{@nbaplayer.conference}" %></h3>
+
+<h2>Finals MVPs</h2>
+<%= "💫" * @nbaplayer.finals_mvps %>
+
+<h2>Finals Appearances</h2>
+<h3><%= "🎟️" * @nbaplayer.finals_appearances %></h3>
+
+<h2>Finals Won</h2>
+<h3><%= "🏆" * @nbaplayer.finals_won %></h3>
+
+<h2>Finals Lost</h2>
+<h3><%= "🥈" * @nbaplayer.finals_lost %></h3>
+
+<h2>Finals Points Average</h2>
+<%= "🧮 #{@nbaplayer.finals_pts_avg}" %>
